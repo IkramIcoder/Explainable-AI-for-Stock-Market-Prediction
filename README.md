@@ -56,7 +56,7 @@ In the visualization above, orange bars indicate positive contributions that pus
 This provides a clear understanding of feature influence at a local (individual prediction) level.
 
 ### 🌍 Global Feature Importance
-![XAI Feature Importance](img/Shap.png)
+![XAI Feature Importance](img/shap.png)
 
 This visualization represents the overall contribution of each feature across the entire dataset.  
 It helps identify which indicators are most significant for the model’s overall behavior.
