@@ -38,7 +38,7 @@ The training phase involves multiple iterations to improve model accuracy, follo
 Predicted prices are compared against real stock prices to assess model performance visually and statistically.
 
 ### 📊 Model Prediction Visualization
-![Stock Prediction Plot](img/Visulization.png)
+![Stock Prediction Plot](Img/Visulization.png)
 
 The blue points represent the actual stock prices, while the red points represent predicted prices.  
 The close alignment between them demonstrates the model’s strong predictive ability.
@@ -50,13 +50,13 @@ To ensure interpretability and trust in the model, Explainable AI (XAI) methods 
 These methods help identify how individual features contribute to each prediction, showing whether a factor increases or decreases the predicted price.
 
 ### 🔍 Local Prediction Explanation
-![XAI Explanation 1](img/Lime.png)
+![XAI Explanation 1](Img/Lime.png)
 
 In the visualization above, orange bars indicate positive contributions that push the price higher, while blue bars represent negative effects that lower the predicted price.  
 This provides a clear understanding of feature influence at a local (individual prediction) level.
 
 ### 🌍 Global Feature Importance
-![XAI Feature Importance](img/shap.png)
+![XAI Feature Importance](Img/shap.png)
 
 This visualization represents the overall contribution of each feature across the entire dataset.  
 It helps identify which indicators are most significant for the model’s overall behavior.
